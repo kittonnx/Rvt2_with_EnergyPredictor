@@ -1,0 +1,17 @@
+# データセットファイルを無視
+*.npz
+energy/checkpoints/
+
+# その他、Python開発で不要なもの
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# 学習済みモデルや重み
+*.pth
+*.ckpt
+*.h5
+
+# ログファイル
+*.log
