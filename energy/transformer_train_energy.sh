@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export CUDA_VISIBLE_DEVICES=4
+
+python lightning_train_energy_predictor_task_soft_langonehot_notfused_huber_transformer.py
+# python lightning_train_energy_predictor_task_soft_langonehot_notfused_huber_transformer_fuse.py
+# python lightning_train_energy_predictor_task_soft_langonehot_notfused_huber_transformer_fuse.py
