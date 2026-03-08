@@ -497,7 +497,7 @@ class RVTAgent:
 
         # self.energy_config_path = '../energy/checkpoints/TF_NoFused_EnergyPredictor/Transformer-d128-nhead4-lyr3_lr0.001_dr0.2_fused7111216_hdbscan-0.001-sample-20-MIN-20-step-eplison-0.5-under10.npz_numlayer-3/energy_config_lambda5.yaml'
         # self.energy_config_path = '../energy/checkpoints/TF_NoFused_EnergyPredictor/Transformer-d128-nhead4-lyr3_lr0.001_dr0.2_fused7111216_hdbscan-0.001-sample-20-MIN-20-step-eplison-0.5-under10.npz_numlayer-3/energy_config_lambda10-7.yaml'
-        self.energy_config_path = '../energy/checkpoints/TF_NoFused_EnergyPredictor/Transformer-d128-nhead4-lyr3_lr0.001_dr0.2_fused7111216_hdbscan-0.001-sample-20-MIN-20-step-eplison-0.5-under10.npz_numlayer-3/energy_config_lambda17-7.yaml'
+        self.energy_config_path = '../../energy/checkpoints/TF_NoFused_EnergyPredictor/Transformer-d128-nhead4-lyr3_lr0.001_dr0.2_fused7111216_hdbscan-0.001-sample-20-MIN-20-step-eplison-0.5-under10.npz_numlayer-3/energy_config_lambda10.yaml'
         # self.energy_config_path = '../energy/checkpoints/TF_NoFused_EnergyPredictor/Transformer-d128-nhead4-lyr3_lr0.001_dr0.2_fused7111216_hdbscan-0.001-sample-20-MIN-20-step-eplison-0.5-under10.npz_numlayer-3/energy_config_lambda15-5.yaml'
         # self.energy_config_path = '../energy/checkpoints/TF_NoFused_EnergyPredictor/Transformer-d128-nhead4-lyr3_lr0.001_dr0.2_fused7111216_hdbscan-0.001-sample-20-MIN-20-step-eplison-0.5-under10.npz_numlayer-3/energy_config_lambda10-5.yaml'
         # self.energy_config_path = '../energy/checkpoints/TF_NoFused_EnergyPredictor/Transformer-d128-nhead4-lyr3_lr0.001_dr0.2_fused7111216_hdbscan-0.001-sample-20-MIN-20-step-eplison-0.5-under10.npz_numlayer-3/energy_config_lambda10-3.yaml'

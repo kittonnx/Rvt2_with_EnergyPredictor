@@ -1,0 +1,21 @@
+device: 0
+episode_length: 25
+eval_datafolder: ./data/test
+eval_episodes: 25
+eval_log_dir: runs/rvt2/eval/lambda-10_best_5/run_1
+exp_cfg_path: null
+ground_truth: false
+headless: true
+log_name: lambda-10_best_5/run_1
+model_folder: runs/rvt2
+model_name: lambda-10_best.pth
+mvt_cfg_path: null
+peract_model_dir: runs/peract_official/seed0/weights/600000
+peract_official: false
+save_video: false
+seed: 5
+skip: false
+start_episode: 0
+tasks:
+- all
+use_input_place_with_mean: false

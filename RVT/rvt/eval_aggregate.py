@@ -43,14 +43,14 @@ MODEL_FOLDER = "runs/rvt2"
 # BASE_LOG_NAME = "rvt_normal_aggregate_seed5555_1"
 
 
-MODEL_NAME = "finetune_best.pth"
-BASE_LOG_NAME = "finetune_best_100"
+FIXED_SEED_BASE = 5
+MODEL_NAME = "lambda-10_best.pth"
+BASE_LOG_NAME = f"lambda-10_best_{FIXED_SEED_BASE}"
 
 
 
 
 
-FIXED_SEED_BASE = 100
 # FIXED_SEED_BASE = 1234
 
 TASKS = "all"
@@ -82,7 +82,6 @@ PROCS_PER_GPU = 1
 
 OTHER_ARGS = [
     "--headless",
-    "--save-video"
 ]
 
 # ----------------------------------------
